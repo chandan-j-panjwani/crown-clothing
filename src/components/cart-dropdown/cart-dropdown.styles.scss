@@ -15,11 +15,16 @@
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      scrollbar-width: none;
+      overflow-y: scroll;
     }
   
     button {
       margin-top: auto;
     }
+
+    ::-webkit-scrollbar {
+      display: none;
+  }
   }
   
