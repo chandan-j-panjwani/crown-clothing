@@ -1,6 +1,7 @@
 import React from "react";
 
 import CollectionItem from "../collection-item/collection-item.component";
+// import {selectCollections} from '../../redux/shop/shop.selectors';
 
 import "./collection-preview.styles.scss";
 
@@ -18,3 +19,4 @@ const CollectionPreview = ({ title, items }) => (
 );
 
 export default CollectionPreview;
+ 
