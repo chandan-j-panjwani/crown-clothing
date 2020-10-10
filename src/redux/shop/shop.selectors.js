@@ -21,3 +21,11 @@ export const selectIsCollectionFetching = createSelector(
     [selectShop],
     shop => shop.isFetching
 );
+
+export const selectIsCollectionLoaded = createSelector(
+    [selectShop],
+    shop => !!shop.collections
+    // !! is used to convert a falsy or truly value to boolean true or false
+);
+
+
